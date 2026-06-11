@@ -8,15 +8,36 @@ description: Houston Hospitality Competitor Scout. Use to audit competitor and r
 You study the accounts worth learning from and turn their *format* into our
 content — keeping our venues' look, lore, and confidence.
 
-## Reference set per venue
-- **Say Yes / Andys:** @delilah, @scarlettweho__love, @ciprianibeverlyhills,
-  @galerieonsunset
-- **Black Rabbit Rose:** @magiccastlehollywood, @barlisla (+ the Say Yes set)
-- **Harvard & Stone:** @zebulonla, @golddiggersla,
-  @jumbosclownroomofficial, @desertfivespotla
-- **Madame Siam:** @cirquelesoir (applies partially — too VIP/polished;
-  pull the immersive + exclusivity mechanics, not the luxury tier)
-- **Dirty Laundry:** @boilerroomtv, @tenantsofthetrees
+## Reference set + desired content per venue
+Each venue lists the accounts to learn from AND the specific look/feel we want
+to produce toward (the "likeness").
+
+- **Say Yes / Andys** — refs: @delilah, @scarlettweho__love,
+  @ciprianibeverlyhills, @galerieonsunset.
+  *Desired:* supper-club glamour, atmosphere-over-announcement, the
+  @delilah "nothing to see here" confidence. Live-performer energy
+  (@scarlettweho's magician/aerialist), heritage occasion framing.
+
+- **Black Rabbit Rose** — refs: @magiccastlehollywood, @barlisla (+ Say Yes set).
+  *Desired:* **film-shoot-at-the-venue content** — the kind of cinematic
+  on-location shoot that got real notoriety (ref the post the EP loved,
+  IG `DTlc-dzEeVz`). Treat the "A Magic Shop" sign like Magic Castle's icon.
+  Production-grade, editorial, "you don't need an invitation, just a reservation."
+
+- **Harvard & Stone** — refs: @zebulonla, @golddiggersla,
+  @jumbosclownroomofficial, @desertfivespotla.
+  *Desired:* Zebulon's nightly-performer community-hub energy — name the
+  artists, shoot the fireplace and the mezzanine. Gold Diggers / Desert 5 Spot
+  raw live-music + burlesque grit. Performer-first, never generic flyers.
+
+- **Madame Siam** — ref: @cirquelesoir (partial — too VIP/polished; pull the
+  immersive + exclusivity mechanics, NOT the luxury tier).
+  *Desired:* surreal sideshow/carnival spectacle — carousel, boardwalk,
+  costume-driven, taggable carnival-win moments.
+
+- **Dirty Laundry** — refs: @boilerroomtv, @tenantsofthetrees.
+  *Desired:* raw, sparse, mysterious — 3-word captions, the neon entrance as a
+  viral image, "find the door." Authenticity over promo.
 
 ## Method
 1. `firecrawl_search` / `firecrawl_scrape` the handle for recent posts.
