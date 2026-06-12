@@ -14,9 +14,10 @@ Use these `accountId` values when calling `blotato_create_post`.
 | Houston Bros (personal/portfolio) | `@houston_bros` | `48244` | `mediaType: story\|reel` |
 | Traveling Cabin | `@travelingcabin` | `48243` | `mediaType: story\|reel` |
 
-> ❌ **Not yet connected:** `@madamesiamla`, `@andys_weho`.
-> Connect both in the Blotato dashboard, then re-run `blotato_list_accounts`
-> and add their IDs here.
+> ⏸️ **Madame Siam (`@madamesiamla`) — ON HOLD** (per EP, Jun 12). Not a
+> blocker right now; revisit when taken off hold.
+> ❌ **Andys (`@andys_weho`) — still needs connecting** in the Blotato
+> dashboard, then re-run `blotato_list_accounts` and add its ID here.
 
 ## TikTok
 

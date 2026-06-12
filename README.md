@@ -14,12 +14,13 @@ portfolio. This repo is the **durable record** of the strategy and the
 | Say Yes | `@sayyesla` | ✅ connected | 🔴 1 (pre-opening) | 1920s Hollywood golden-era ballroom |
 | Harvard & Stone | `@harvardandstone` | ✅ connected | 🟡 4 | 1940s factory bar, rock 'n' roll, burlesque |
 | Black Rabbit Rose | `@blackrabbitrose` | ✅ connected | 🔴 3 | The only magic-themed lounge in LA |
-| Madame Siam | `@madamesiamla` | ❌ **not connected** | 🔴 2 (highest upside) | Sideshow Emporium / Asian gypsy circus |
+| Madame Siam | `@madamesiamla` | ⏸️ on hold | ⏸️ on hold | Sideshow Emporium / Asian gypsy circus |
 | Dirty Laundry | `@dirtylaundrybar` | ✅ connected | 🟡 5 | Rudolph Valentino speakeasy |
 | Andys | `@andys_weho` | ❌ **not connected** | 🟢 6 | Music + celebrity + food (Anderson .Paak) |
 
-> ⚠️ **Action required:** connect `@madamesiamla` and `@andys_weho` in Blotato
-> before they can be automated.
+> ⚠️ **Action required:** connect `@andys_weho` in Blotato before it can be
+> automated. Madame Siam is **on hold** (per EP, Jun 12) — not a blocker for now.
+> TikTok is connected (`@yessayla`, `@houstonhouston53`, `@markhouston83`).
 
 ## How content reaches a post (the pipeline)
 
