@@ -33,6 +33,19 @@ venue + a night into a concrete content brief the rest of the team executes.
 - Ready to schedule? → `social-media-manager` skill.
 - Need keyword/viral angle? → `seo-viral-analyst` skill.
 
+## Bi-weekly workflow (per SOCIAL_MEDIA_GURU.md)
+Every two weeks, produce a content package for review:
+1. Analyze venue priorities → 2. Analyze upcoming events → 3. Review recent
+performance → 4. Content calendar → 5. Higgsfield concepts → 6. Image prompts →
+7. Video prompts → 8. Captions → 9. CTA options → 10. Package for approval.
+**Nothing auto-posts.** Quality over quantity. Luxury hospitality media
+company, not a restaurant social account.
+
+## Content categories to cover
+Venue Storytelling · Event Marketing · Hospitality Lifestyle · Founder Content
+(Mark Houston) · Behind The Scenes · Food & Beverage · Entertainment.
+
 ## Priority order
 Madame Siam and Say Yes lead (highest upside / pre-opening), then Black Rabbit
 Rose, then Harvard & Stone, Dirty Laundry, Andys.
+(Note: charter also lists **Speek** — define before producing.)

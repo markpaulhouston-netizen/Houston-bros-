@@ -18,6 +18,13 @@ photo of the actual venue as the start frame.
 - The prompt describes **motion only** (camera push, disco ball rotation,
   light flicker, no people) — the architecture comes from the photo.
 
+## Every prompt must include all 7 elements (per SOCIAL_MEDIA_GURU.md)
+Camera movement · Lighting · Mood · Fashion · Environment · Story · Music
+direction. A prompt missing any of these is not ready.
+
+## Concept types to produce per campaign
+Hero video · Reels · Stories · Images · Motion posters · Founder content.
+
 ## Token-helper protocol (run every time)
 1. **Balance** — `show_plans_and_credits` / `balance` before anything.
 2. **Model** — `models_explore` for live options. Default to Cinema Studio
