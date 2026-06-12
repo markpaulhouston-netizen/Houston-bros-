@@ -39,10 +39,22 @@ to produce toward (the "likeness").
   *Desired:* raw, sparse, mysterious — 3-word captions, the neon entrance as a
   viral image, "find the door." Authenticity over promo.
 
-## Method
-1. `firecrawl_search` / `firecrawl_scrape` the handle for recent posts.
-2. Capture: post format, cadence, caption length/voice, what drives saves.
-3. Translate to our venue — mimic the *structure*, swap in our space + lore.
+## Method (proven — use this)
+Direct Instagram scraping does NOT work: IG blocks it, Firecrawl refuses the
+domain, and Ahrefs social is plan-gated. The reliable path is **Firecrawl
+search across three sources** per handle:
+
+1. **Images** — `firecrawl_search` with `sources:[{type:"images"}]` and query
+   `"<venue name> <city> interior / event / aesthetic"`. Returns their actual
+   post visuals (Google-indexed `lookaside.instagram.com` images) — the thing
+   we out-shoot.
+2. **Web** — their positioning, captions, cadence, press coverage.
+3. **News** — launches, awards, notable coverage.
+
+Then: capture format, recurring nights, caption voice, and the visual signature
+→ produce a "steal this format, here's how we go one-better" brief.
+
+Full repeatable runbook: `automation/competitor-watch.md`.
 
 ## Key findings (from the first audit)
 - Top accounts never beg, never explain. Atmosphere over announcements.
