@@ -48,4 +48,3 @@ Venue Storytelling · Event Marketing · Hospitality Lifestyle · Founder Conten
 ## Priority order
 Madame Siam and Say Yes lead (highest upside / pre-opening), then Black Rabbit
 Rose, then Harvard & Stone, Dirty Laundry, Andys.
-(Note: charter also lists **Speek** — define before producing.)

@@ -26,11 +26,7 @@ Houston Hospitality brands.
 - Black Rabbit Rose
 - Dirty Laundry
 - Madame Siam
-- Speek
-
-> ⚠️ Reconciliation note: prior strategy work also covered **Harvard & Stone**
-> (see `strategy/`). **Speek** is newly added and not yet defined (no deck /
-> programming / handle). Confirm both with the Executive Producer.
+- Harvard & Stone
 
 ## Content Categories
 - **Venue Storytelling** — atmosphere, design, emotion, guest experiences.
