@@ -71,6 +71,25 @@ python3 sample_data/make_sample.py 11000 sample_data/big_sample.csv
 python3 -m contacts_toolkit.cli all sample_data/big_sample.csv -o output
 ```
 
+## Already have a "Birthday & Contact Outreach" sheet?
+
+If your starting point is a birthday-outreach list exported from your calendar
+(columns `Name, DOB (Month Day), Birth Year, Social Handle, Channel, …`) rather
+than a raw Google Contacts export, use the dedicated subcommand:
+
+```bash
+python3 -m contacts_toolkit.cli birthday-list your_master_list.csv -o output --sender "Mark"
+```
+
+It dedupes the list and writes, into `output/`:
+
+| File | What it is |
+|------|-----------|
+| `birthday_calendar.ics` | Every birthday as a yearly all-day Google Calendar reminder |
+| `birthday_agenda.md` | Month-by-month birthday agenda |
+| `birthday_dms.md` | Ready-to-send messages, auto-routed to each person's Instagram handle when known |
+| `birthday_list_clean.csv` | The de-duplicated list |
+
 ## Project layout
 
 ```

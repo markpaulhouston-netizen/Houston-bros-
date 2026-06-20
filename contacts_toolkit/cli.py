@@ -136,6 +136,21 @@ def run_all(args) -> None:
     print(f"\nDone. See {summary_path}\n")
 
 
+def run_birthday_list(args) -> None:
+    from .birthday_list import run as _run_bl
+
+    stats = _run_bl(args.input, out_dir=args.output, sender_name=args.sender,
+                    reminder_days=args.reminder_days)
+    print(f"Processed {stats['input_rows']} rows from {args.input}")
+    print(f"  after dedupe:        {stats['after_dedupe']} "
+          f"({stats['duplicates_merged']} duplicates merged)")
+    print(f"  valid birthdays:     {stats['with_valid_birthday']}")
+    print(f"  calendar (.ics):     {stats['ics']}")
+    print(f"  month agenda:        {stats['agenda']}")
+    print(f"  cleaned list (.csv): {stats['clean_csv']}")
+    print(f"  message drafts:      {stats['drafts']}")
+
+
 def _add_common(p):
     p.add_argument("input", help="Path to a Google Contacts CSV export")
     p.add_argument("-o", "--output", default="output", help="Output folder (default: output)")
@@ -155,6 +170,16 @@ def main(argv=None) -> int:
     p_all.add_argument("--reminder-days", type=int, default=1,
                        help="Days before each birthday to alert (calendar)")
     p_all.set_defaults(func=run_all)
+
+    # Subcommand for the calendar-derived "Birthday & Contact Outreach" sheet,
+    # which has a different schema (Name / DOB (Month Day) / Social Handle ...).
+    p_bl = sub.add_parser("birthday-list",
+                          help="Process a Birthday Outreach master-list CSV")
+    _add_common(p_bl)
+    p_bl.add_argument("--sender", default="Mark", help="Name to sign messages")
+    p_bl.add_argument("--reminder-days", type=int, default=2,
+                      help="Days before each birthday to alert (calendar)")
+    p_bl.set_defaults(func=run_birthday_list)
 
     args = parser.parse_args(argv)
     args.func(args)
