@@ -1,0 +1,11 @@
+# PRIVACY: never commit real contact data or generated personal output.
+/output/
+contacts.csv
+*contacts*.csv
+!sample_data/contacts_sample.csv
+*.vcf
+*.ics
+
+__pycache__/
+*.pyc
+.DS_Store
