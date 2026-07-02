@@ -25,10 +25,12 @@ Default to the **last 7 days ending today**. State the exact date range and the 
 4. Note which live tools are connected (HubSpot, PostHog, Gmail, Calendar, Apollo, Drive).
 
 ## Step 3 — Convene the board
-Dispatch the **board-chair** agent with the period and the gathered inputs. The Chair will
-delegate to the four members (revenue-leads-analyst, cost-labor-analyst,
-bookings-talent-scout, productivity-reviewer), reconcile their findings, and produce the
-report in the standard format.
+Dispatch the **board-chair** agent with the period and the gathered inputs. The Chair always
+runs the core four (revenue-leads-analyst, cost-labor-analyst, bookings-talent-scout,
+productivity-reviewer) and adds the specialist seats (brand-marketing-advisor,
+guest-reputation-advisor, risk-compliance-advisor, growth-vision-advisor) when the week's
+inputs touch their area or Mark asks for a "full board." The Chair reconciles their findings
+and produces the report in the standard format.
 
 ## Step 4 — Save the report
 Write it to `board/reports/<YYYY>-W<WW>.md`.

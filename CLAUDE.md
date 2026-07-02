@@ -13,6 +13,7 @@ Hospitality / nightlife / events. Revenue from **bookings, talent (DJs/artists/h
 promoters, parties/events, ticketing, table & bottle service, sponsorships, and brand deals.**
 
 ## The board (agents in `.claude/agents/`)
+**Core four — always convene:**
 | Agent | Role | Owns |
 |-------|------|------|
 | `board-chair` | Chair / orchestrator | Runs the meeting, synthesizes one report, delivers it |
@@ -20,6 +21,14 @@ promoters, parties/events, ticketing, table & bottle service, sponsorships, and 
 | `cost-labor-analyst` | CFO / COO | Hours saved, costs cut, AI ROI |
 | `bookings-talent-scout` | Talent & Bookings Director | Re-book winners, source new revenue |
 | `productivity-reviewer` | Chief of Staff | How Mark's week was actually spent, follow-through |
+
+**Specialist seats — convene when relevant or on request:**
+| Agent | Role | Owns |
+|-------|------|------|
+| `brand-marketing-advisor` | CMO | Is marketing feeding leads, not just reach |
+| `guest-reputation-advisor` | VP Guest Experience | Repeat attendance, reviews, reputation risk |
+| `risk-compliance-advisor` | General Counsel / controller | Contracts, deposits, licensing, cash-flow risk |
+| `growth-vision-advisor` | Visionary growth-builder | Brand-building & scale, benchmarked to Tao Group playbook |
 
 ## How to run it
 - Say **"run the board review"** or invoke the **/weekly-board-review** skill.
