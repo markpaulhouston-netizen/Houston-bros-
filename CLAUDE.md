@@ -49,3 +49,21 @@ communication automatically.
 When reporting a metric or result, state which connected tool it came from
 (e.g. "PostHog", "HubSpot") and the time range, so the number can be trusted and
 re-checked.
+
+## Kickoff
+
+### 7. Scope before building
+
+For any non-trivial build — code, a workflow, an automation, a campaign, or a
+report — run a short kickoff interview before starting, and summarize the answers
+back before doing any work:
+
+- What is the core problem this solves?
+- Who is this for?
+- What does success look like?
+- What should this NOT do?
+- What's the simplest version?
+- How will we verify it works?
+
+Pairs with Rule 2: first scope it, then search for what already exists, then
+build.
